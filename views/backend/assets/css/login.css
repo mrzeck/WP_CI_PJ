@@ -1,0 +1,277 @@
+body.login-page {
+    background: url(../images/bg_login.jpg) #313B56;
+    background-size: cover;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco",'Segoe UI', sans-serif;
+    overflow: hidden
+}
+
+body.login-page .login-widget {
+    width: 300px;
+    margin: 100px auto
+}
+
+#user-form-login {
+    position: relative;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+body.login-page .login-widget .login-widget-top {
+    background-color: transparent;
+    padding: 30px 10px 10px 10px;
+    color: #fff
+}
+
+
+body.login-page .login-widget .login-widget-top h1 {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco",'Segoe UI', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase
+}
+
+body.login-page .login-widget .login-widget-top h1 i.fa {
+    font-size: 20px;
+    margin-right: 10px
+}
+
+body.login-page .login-widget .login-widget-content {
+    padding: 20px
+}
+
+body.login-page .login-widget .login-widget-content .form-control {
+    border: 1px solid rgba(255, 255, 255, .28);
+    height: 44px;
+    background: 0 0;
+    font-size: 16px;
+    box-shadow: none;
+    color: #fff;
+    position:relative;
+    padding: 6px 12px 6px 30px;
+}
+
+
+body.login-page .login-widget .login-widget-content .form-group {
+    position:relative;
+}
+
+body.login-page .login-widget .login-widget-content .form-group .icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+
+body.login-page .login-widget .login-widget-content input::-webkit-input-placeholder {
+    color: #fff;
+    transition: opacity 250ms ease-in-out
+}
+
+body.login-page .login-widget .login-widget-content input:focus::-webkit-input-placeholder {
+    opacity: .5
+}
+
+body.login-page .login-widget .login-widget-content input:-ms-input-placeholder {
+    color: #fff;
+    transition: opacity 250ms ease-in-out
+}
+
+body.login-page .login-widget .login-widget-content input:focus:-ms-input-placeholder {
+    opacity: .5
+}
+
+body.login-page .login-widget .login-widget-content input::-moz-placeholder {
+    color: #fff;
+    opacity: 1;
+    transition: opacity 250ms ease-in-out
+}
+
+body.login-page .login-widget .login-widget-content input:focus::-moz-placeholder {
+    opacity: .5
+}
+
+body.login-page .login-widget .login-widget-content input:-moz-placeholder {
+    color: #fff;
+    opacity: 1;
+    transition: opacity 250ms ease-in-out
+}
+
+body.login-page .login-widget .login-widget-content input:focus:-moz-placeholder {
+    opacity: .5
+}
+
+@-webkit-keyframes autofill {
+    to {
+        color: #666;
+        background: 0 0
+    }
+}
+
+body.login-page .login-widget .login-widget-content input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+    -webkit-text-fill-color: #fff!important
+}
+
+body.login-page .login-widget .login-widget-bottom {
+    background-color: transparent;
+    padding: 10px 20px;
+    color: #fff;
+    overflow: hidden
+}
+
+body.login-page .login-widget .login-widget-bottom a {
+    text-decoration: none
+}
+
+@media (min-width:768px) {
+    body.login-page .login-widget {
+        width: 400px
+    }
+}
+
+body.login-page:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    -webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -o-filter: blur(20px);
+    -ms-filter: blur(20px);
+    filter: blur(20px);
+    filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius='20')
+}
+
+.wcm-box-thankyou .inlinesvg .svg img,
+.wcm-loading {
+    display: none
+}
+
+.wcm-box-bg,
+.wcm-box-thankyou {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0
+}
+
+.btn,
+.btn:hover {
+    text-decoration: none;
+    color: #fff
+}
+
+.wcm-box-bg {
+    width: 100%;
+    z-index: 998;
+    background-color: rgba(0, 0, 0, .6)
+}
+
+.wcm-box-thankyou {
+    width: 100%;
+    z-index: 999;
+    text-align: center
+}
+
+.wcm-box-thankyou svg:not(:root) {
+    overflow: hidden
+}
+
+.wcm-box-thankyou .icon--order-success svg circle {
+    animation: .6s ease-in-out 0s normal backwards 1 running checkmark-circle
+}
+
+.wcm-box-thankyou .icon--order-success svg path {
+    animation: .25s ease-in-out .7s normal backwards 1 running checkmark
+}
+
+.wcm-box-thankyou .thankyou-message-icon {
+    display: inline-block;
+    margin-top: 80px
+}
+
+@media (min-width:992px) {
+    .wcm-box-thankyou .summary-product {
+        max-height: 375px
+    }
+}
+
+@media (max-width:992px) {
+    .wcm-box-thankyou .thankyou-message-icon {
+        display: block;
+        text-align: center;
+        float: none;
+        margin-right: 0
+    }
+    .wcm-box-thankyou .thankyou-message-text {
+        display: block;
+        text-align: center
+    }
+    .wcm-box-thankyou .thankyou-infos .customer-info {
+        padding-top: 25px
+    }
+    .wcm-box-thankyou .order-success {
+        text-align: center
+    }
+}
+
+.btn {
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+    margin: 0 auto 2em;
+    position: relative;
+    text-transform: uppercase;
+    width: 100%;
+    border-right: 5px;
+    background-color: transparent
+}
+
+@media (min-width:400px) {
+    .btn {
+        display: inline-block;
+        margin-right: 2.5em
+    }
+    .btn:nth-of-type(even) {
+        margin-right: 0
+    }
+}
+
+@media (min-width:600px) {
+    .btn:nth-of-type(even) {
+        margin-right: 2.5em
+    }
+    .btn:nth-of-type(5) {
+        margin-right: 0
+    }
+}
+
+.btn-5 {
+    border: 0 solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: solid 1px;
+    outline-color: rgba(255, 255, 255, .5);
+    outline-offset: 0;
+    text-shadow: none;
+    transition: all 1.25s cubic-bezier(.19, 1, .22, 1)
+}
+
+.btn-5:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388
+}

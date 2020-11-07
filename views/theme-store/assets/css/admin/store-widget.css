@@ -1,0 +1,98 @@
+.stote_wg_item {
+  background-color: #ededed;
+  border: 1px #ccc dashed;
+  padding: 10px 0;
+  clear: both;
+  overflow: hidden;
+}
+/* form input type = wg_box */
+.wg-box-item img {
+  cursor: pointer;
+}
+.wg-box-item.active img {
+  border: 2px solid red;
+}
+/* form input type = col */
+.input-cols input[type="range"] {
+  display: none;
+}
+.input-col-wrap {
+  display: table;
+  width: 100%;
+}
+.input-col-wrap div.col-item {
+  display: table-cell;
+  width: 8.333%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #181B1F;
+  color: #4e5762;
+  font-size: 8px;
+  border: 1px solid #4e5762;
+  border-left: 0px solid #4e5762;
+  cursor: pointer;
+}
+.input-col-wrap div.col-item:first-child {
+  border-left: 1px solid #4e5762;
+}
+.input-col-1 div.col-item:nth-child(-n+1) {
+  color: #FFF;
+  background-color: #00a0d2;
+}
+.input-col-2 div.col-item:nth-child(-n+2) {
+  color: #FFF;
+  background-color: #00a0d2;
+}
+.input-col-3 div.col-item:nth-child(-n+3) {
+  color: #FFF;
+  background-color: #00a0d2;
+}
+.input-col-4 div.col-item:nth-child(-n+4) {
+  color: #FFF;
+  background-color: #00a0d2;
+}
+.input-col-5 div.col-item:nth-child(-n+5) {
+  color: #FFF;
+  background-color: #00a0d2;
+}
+.input-col-6 div.col-item:nth-child(-n+6) {
+  color: #FFF;
+  background-color: #00a0d2;
+}
+.input-col-7 div.col-item:nth-child(-n+7) {
+  color: #FFF;
+  background-color: #00a0d2;
+}
+.input-col-8 div.col-item:nth-child(-n+8) {
+  color: #FFF;
+  background-color: #00a0d2;
+}
+.input-col-9 div.col-item:nth-child(-n+9) {
+  color: #FFF;
+  background-color: #00a0d2;
+}
+.input-col-10 div.col-item:nth-child(-n+10) {
+  color: #FFF;
+  background-color: #00a0d2;
+}
+.input-col-11 div.col-item:nth-child(-n+11) {
+  color: #FFF;
+  background-color: #00a0d2;
+}
+.input-col-12 div.col-item:nth-child(-n+12) {
+  color: #FFF;
+  background-color: #00a0d2;
+}
+.input-col-13 div.col-item:nth-child(-n+13) {
+  color: #FFF;
+  background-color: #00a0d2;
+}
+.input-col-14 div.col-item:nth-child(-n+14) {
+  color: #FFF;
+  background-color: #00a0d2;
+}
+.input-col-15 div.col-item:nth-child(-n+15) {
+  color: #FFF;
+  background-color: #00a0d2;
+}

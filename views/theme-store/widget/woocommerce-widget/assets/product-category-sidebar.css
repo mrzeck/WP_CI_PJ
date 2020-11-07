@@ -1,0 +1,83 @@
+.sidebar .col-md-12, .sidebar .col-sm-12{ padding: 0; }
+.sidebar .header-title h2.header {
+    background-color: rgb(24, 204, 20);
+    color: #fff;
+    text-align: left;
+    padding: 10px 10px;
+    border-radius: 0;
+    margin: 0;
+      font-size: 16px;
+    font-weight: bold;
+}
+.product-catgory-sidebar {
+    padding-bottom: 0px;
+    background: #fff;
+}
+.product-catgory-sidebar .nav-item {
+    position: relative;
+    clear: left;
+    font-size: 1.07143em;
+    padding:0;
+    line-height: 28px;
+    
+}
+.product-catgory-sidebar  .nav-category > ul{padding-left:10px;}
+.product-catgory-sidebar  .nav-category > ul > li.nav-item{
+    border-bottom: 1px solid #cdcdcd;
+}
+.product-catgory-sidebar .nav-item a {
+    font-size: 14px;
+    padding: 5px 15px !important ;
+    padding-left: 0!important ;
+    background-color: #fff;
+    color:#000;
+    line-height: 25px;
+    display: block;
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: bold;
+    
+    border-top: none;
+}
+.product-catgory-sidebar .nav-item ul  {
+    position: relative;
+   /*  left: 100%;
+    top: 0; */
+    z-index: 99;
+    width: 100%;
+    background: transparent;
+    padding-left: 15px;
+   /*  display: none; */
+}
+.product-catgory-sidebar .nav-item ul li a {
+    font-size: 12px;
+    padding: 0px 15px !important ;
+    padding-left: 0!important ;
+    background-color: transparent;
+    color:#666;
+    line-height: 25px;
+    display: block;
+    text-transform: uppercase;
+    border:none!important;
+    font-weight: 500;
+}
+.product-catgory-sidebar .nav-item:last-child{
+    border-bottom: none;
+}
+.product-catgory-sidebar #mobile-aside-content {
+    padding-bottom: 17px
+}
+.product-catgory-sidebar .nav-item:hover ul{
+    display: block;
+}
+.product-catgory-sidebar .nav-item a:hover{
+    color:  rgb(153,51,0);
+    background-color: #eee;
+}
+.product-catgory-sidebar .nav-item.active>a {
+    color: #fff
+}
+.product-catgory-sidebar .nav-item:hover>a {
+    color: #1a1a26
+}
+.sidebar h1.header:after, .sidebar h2.header:after, .sidebar h3.header:after, .related_post h3.header:after{display:none !important;}

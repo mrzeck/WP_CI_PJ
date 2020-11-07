@@ -1,0 +1,110 @@
+/*============ FACEBOOK CHAT ================*/
+.box-fbm-chat {
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    right: 20px;
+    width: 250px;
+}
+.box-fbm-chat .fbm-chat-header {
+    background-color: #3A5897;
+    overflow: hidden;
+    padding: 5px 10px;
+    width: 250px;
+    box-shadow: 2px 6px 6px 6px rgba(0, 0, 0, 0.09);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+.box-fbm-chat .fbm-chat-header .fbm-chat-title {
+    float: left;
+    color: #fff;
+    line-height: 30px;
+    width: 210px;
+    height: 30px;
+    margin: 0px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.box-fbm-chat .fbm-chat-header .fbm-chat-title .fa {
+    padding-right: 10px;
+}
+.box-fbm-chat .fbm-chat-header .fbm-chat-close {
+    line-height: 30px;
+    height: 30px;
+    float: right;
+    color: #9CABCB;
+    cursor: pointer;
+}
+.box-fbm-chat .fbm-chat-header .fbm-chat-close:hover {
+    color: #fff;
+}
+.box-fbm-chat .fbm-chat-content {
+    height: 335px;
+    background-color: #fff;
+    box-shadow: 2px 6px 6px 6px rgba(0, 0, 0, 0.09);
+}
+#fbm_box_show {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    background-color: #3A5897;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    padding: 5px 10px;
+    width: 100px;
+    box-shadow: 2px 6px 6px 6px rgba(0, 0, 0, 0.09);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+    z-index: 998;
+}
+.box-fbm-chat-left, .fbm_box_show_left {
+    left: 20px;
+}
+/*============ FACEBOOK TAB ================*/
+.fbm_tab {
+  position: fixed;
+  z-index: 999;
+  top: 500px;
+  right: -300px;
+  width: 300px;
+  background-color: #4A6EA9;
+  border: 5px solid #4A6EA9;
+  transition: all 0.5s;
+}
+.fbm_tab .fbm_tab_icon {
+  position: absolute;
+  left: -75px;
+  top: 25px;
+  background: #4a6ea9;
+  padding: 10px 10px;
+  color: #fff;
+  border-radius: 10px 10px 0 0px;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+}
+.fbm_tab .fbm_tab_icon h3 {
+  font-size: 18px;
+  margin: 0;
+}
+.fbm_tab:hover {
+  right: 0;
+}
+.fbm_tab_left {
+  left: -300px;
+}
+.fbm_tab_left .fbm_tab_icon {
+  left: 264px;
+  top: 25px;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+}
+.fbm_tab_left:hover {
+  left: 0;
+}

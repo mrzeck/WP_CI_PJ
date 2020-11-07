@@ -1,0 +1,34 @@
+.input-popover-tags .popover-content .popover__ul li .item-tag {
+    background: transparent;
+    border: 0;
+    display: block;
+    font-size: 14px;
+    padding: 5px 10px;
+    text-align: left;
+    text-decoration: none;
+    color: #31373d;
+    word-wrap: break-word;
+    border-radius: 0;
+    line-height: 24px;
+    white-space: normal;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.input-popover-tags .collections .collection-list li {
+    display: inline-block;
+    background: #EBEEF0;
+    padding:0 0 0 10px;
+    margin-right: 5px;
+}
+.input-popover-tags .collections .collection-list li .collection-list__grid .collection-list__cell {
+    text-align: center;
+    padding:10px 0;
+}
+
+.input-popover-tags .popover-content .popover__ul li.option-tag:hover,
+.input-popover-tags .popover-content .popover__ul li.is--select {
+    background: #08f;
+    color: #fff;
+}
